@@ -1,10 +1,13 @@
 # stm32_aimereader
 aime读卡器新方案
 <h1> 我去，我今天才发现怎么开了这个页面但是没写东西！！！ </h1>
-即将更新
+即将更新  
+
 # 总览
 
 文章正在逐步编写，暂时完成一部分
+
+上传的程序是对Sucareto/Arduino-Aime-Reader程序的修改版本，适用于stm32duino，由于stm32duino使用FastLED报错，所以改为Adafruit-Neopixel库，暂发现一定情况下与原程序不一致（？，但影响非常非常非常小，几乎没有，几乎可以说一点也不影响使用
 
 本文章方案内容和其中所述设备为使用 Sucareto/Arduino-Aime-Reader 程序的 Aime 兼容读卡器
 
