@@ -9,6 +9,8 @@ aime读卡器新方案
 
 上传的程序是对Sucareto/Arduino-Aime-Reader程序的修改版本，适用于stm32duino，由于stm32duino使用FastLED报错，所以改为Adafruit-Neopixel库，暂发现一定情况下与原程序不一致（？，但影响非常非常非常小，几乎没有，几乎可以说一点也不影响使用
 
+使用教程后续会发，现在简述，首先安装arduino ide，然后安装开发板stm32duino，然后安装pn532库和neopixel库。开发板选择F103 ， 具体选BluePill F103C8T6，因为stm32duino里这个可以跑USB，好像标准C8T6那个stm32duino不大支持。U(S)ART选Enabled(Generic Serial)，USB模式选CDC (Generic Serial supersede U(S)ART)，USB速度Low/Full，吸不吸氧(优化)，氧气（-O2）还是臭氧(-O3)随意，因为程序对速度没有要求，选择不优化已经足够可以，然后选择合适下载器编译下载即可。（如果你没有列表支持下载器，请在项目栏选择导出编译好的二进制，hex/bin文件将会生成在项目文件夹，使用其他软硬件比如J-flash，jlink下载即可），程序默认LED在PA6，pn532接在第一个I2C即可。（烧录完成请重新拔插设备以使usb生效！）
+
 本文章方案内容和其中所述设备为使用 Sucareto/Arduino-Aime-Reader 程序的 Aime 兼容读卡器
 
 **注意！本方案的测试作品还在制作中，基本软件程序已经开发测试完成，PCB的MCU主控部分和灯都正常工作，但是532部分暂未调起来！！！不要直接打板！！本文章暂且只做方案展示，不作教程，后续测试V1Alpha成功后，将会发布V1正式版PCB文件和教程！！！！**
