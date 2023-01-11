@@ -1,4 +1,7 @@
 # stm32_aimereader
+
+# stm32duino 的USB串口通信出现问题，现已锁定项目，正在补救！
+
 aime读卡器新方案,低价高性能方便使用！
 
 
