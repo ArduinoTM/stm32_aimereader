@@ -2,7 +2,11 @@
 
 # stm32duino 的USB串口通信出现的问题已经解决！！！！！
 # 重磅更新：现已支持SpiceAPI刷iidx，sdvx等，不支持旧版epass，其余mifare和felica大部分卡应该都支持！！！！！！！！不确定与其他读卡器读的卡号一不一样就是，现已发布更新包和已开源！！！！！！！！！！！！！！！！！！！！！！！
-
+# SpiceAPI使用教程：  
+建议串口：COM6  
+不建议使用：COM1  
+刷不动的话建议更新你的SpiceTool： https://github.com/spicetools/spicetools  
+（进去在Release里面下载最新的，使用三个EXE替换旧的）  
 ![SpiceAPI教程](SpiceAPI使用教程.png)  
 # 正在实现namco部分！！！！！
 # v1.0Release PCB开源已上传！！！！！！！！！！！！！！！！！！！！！！
