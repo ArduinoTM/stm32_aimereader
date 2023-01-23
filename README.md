@@ -1,6 +1,8 @@
 # stm32_aimereader 新方案Se_ga/Konami双模双社读卡器 成本30  
 目前处在v1.0版本，主要工作是干好sbga部分，konami和namco支持为次要  
 # stm32duino 的USB串口通信出现的问题已经解决！！！！！
+# SpiceAPI版本读不了Felica的问题已解决！！请已经更新的Spice用户再更新到最新版，源码是“修复版SpiceAPI源码PN532-spiceapi的ino”，最新版更新包已经放在Release！！！！！非常抱歉对大家带来的不便！！！  
+# SpiceAPI版本已测与CardIO版本读卡器读取Felica时读到卡号完全一样完全兼容！！！  
 # 重磅更新：现已支持SpiceAPI刷iidx，sdvx等，不支持旧版epass，其余mifare和felica大部分卡应该都支持！！！！！！！！不确定与其他读卡器读的卡号一不一样就是，现已发布更新包和已开源！！！！！！！！！！！！！！！！！！！！！！！
 # SpiceAPI使用教程：  
 建议串口：COM6  
