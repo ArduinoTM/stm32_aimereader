@@ -82,6 +82,18 @@ Ver1.0Alpha 原理图公示 此版本已经打板未到，未测试！
 ![Ver1.0Alpha 原理图公示](pictures/SheetV1A.png)
 
 
+# NAMCO使用教程
+
+1. 使用ModifyedTAL替换已经可以联网的软件中的TAL，此版本是最新版去掉bngrw的hook实现的    
+由于本人特殊爱好，此版本可能需要打开AMAUTHD和AMUPDATER  
+由于不知道什么原因，在部分设备上，登入后可能出现软件闪退  
+现在仅是测试使用版本  
+2. 使用最新下发的bngrw.dll替换原来的
+3. 读卡器刷机
+4. 读卡器连接 COM1 
+5. 正常启动软件
+
+
 # SpiceAPI使用教程：  
 建议串口：COM6  
 不建议使用：COM1  
