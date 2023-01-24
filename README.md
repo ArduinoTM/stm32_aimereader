@@ -1,16 +1,15 @@
-# stm32_aimereader 新方案Se_ga/Konami双模双社读卡器 成本30  
+# stm32_aimereader 新方案Se_ga/Kona_mi/NA_MCO三模三社读卡器 成本30  
+
 目前处在v1.0版本，主要工作是干好sbga部分，konami和namco支持为次要  
 # stm32duino 的USB串口通信出现的问题已经解决！！！！！
+# 初始的NAMCO读卡支持！！，使用自制IO（自制bngrw.dll，基于我修改的Openbanapass），目前支持太鼓达人的基本刷卡（仅分辨不同卡片，未实现卡内真实卡号读取）
+# NAMCO|SEGA|KONAMI三模式下的源码和已编译支持直刷的更新包均已上传！！！  
+文件比较乱，我之后会整理一下，带来的不便敬请谅解
+
 # SpiceAPI版本读不了Felica的问题已解决！！请已经更新的Spice用户再更新到最新版，源码是“修复版SpiceAPI源码PN532-spiceapi的ino”，最新版更新包已经放在Release！！！！！非常抱歉对大家带来的不便！！！  
 # SpiceAPI版本已测与CardIO版本读卡器读取Felica时读到卡号完全一样完全兼容！！！  
 # 重磅更新：现已支持SpiceAPI刷iidx，sdvx等，不支持旧版epass，其余mifare和felica大部分卡应该都支持！！！！！！！！不确定与其他读卡器读的卡号一不一样就是，现已发布更新包和已开源！！！！！！！！！！！！！！！！！！！！！！！
-# SpiceAPI使用教程：  
-建议串口：COM6  
-不建议使用：COM1  
-刷不动的话建议更新你的SpiceTool： https://github.com/spicetools/spicetools  
-（进去在Release里面下载最新的，使用三个EXE替换旧的）  
-![SpiceAPI教程](SpiceAPI使用教程.png)  
-# 正在实现namco部分！！！！！
+
 # v1.0Release PCB开源已上传！！！！！！！！！！！！！！！！！！！！！！
 # 修复了串口的程序已上传！！！！！！！！！！！！
 
@@ -82,6 +81,13 @@ Ver1.0Alpha 原理图公示 此版本已经打板未到，未测试！
 
 ![Ver1.0Alpha 原理图公示](pictures/SheetV1A.png)
 
+
+# SpiceAPI使用教程：  
+建议串口：COM6  
+不建议使用：COM1  
+刷不动的话建议更新你的SpiceTool： https://github.com/spicetools/spicetools  
+（进去在Release里面下载最新的，使用三个EXE替换旧的）  
+![SpiceAPI教程](SpiceAPI使用教程.png)  
 
 
 # CH340 | MCU 内置USB 原理
